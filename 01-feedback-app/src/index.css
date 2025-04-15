@@ -157,21 +157,25 @@ input:focus {
 
 .btn-primary {
   background-color: #202142;
+  font-weight: bold;
 }
 
 .btn-secondary {
   background: #ff6a95;
+  font-weight: bold;
 }
 
 .btn:hover {
   transform: scale(0.98);
   opacity: 0.9;
+  font-weight: bold;
 }
 
 .btn:disabled {
   background-color: #cccccc;
   color: #333;
   cursor: auto;
+  font-weight: normal;
 }
 
 .btn:disabled:hover {

@@ -1,12 +1,51 @@
-# React + Vite
+# Feedback UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive feedback app built with **React**, powered by **Vite**, and supported by a mock backend using **JSON Server**. Users can submit their service ratings, leave reviews, edit or delete them, and view the average rating dynamically.
 
-Currently, two official plugins are available:
+![App Demo](./src/assets/feedback-app.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⭐ Rate the service (1 to 10)
+- ✍️ Submit, edit, or delete reviews
+- 📊 Live average rating calculation
+- 💻 Backend simulated using `json-server`
+- 🎨 Smooth animations with `Framer Motion`
+- 🔁 Routing support with `react-router-dom`
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies
+
+- React 19
+- Vite
+- React Router DOM
+- JSON Server
+- Framer Motion
+- React Icons
+
+## 📦 Installation
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/KeskenRidvan/01-feedback-app.git
+   cd 01-feedback-app
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the mock backend**
+
+   ```bash
+   npm run server
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+The mock backend will be running on http://localhost:5000 and the React app on http://localhost:5173.
